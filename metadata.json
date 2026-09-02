@@ -1,6 +1,10 @@
 {
   "name": "Nomad Wonders Travel & Navigation",
   "description": "Smart travel itinerary explorer and battery-efficient dual-engine map navigation with AMap & Google Maps auto-switching, persistent offline caching, and real-time alerts.",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

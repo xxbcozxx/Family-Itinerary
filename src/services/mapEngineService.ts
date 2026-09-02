@@ -1,7 +1,9 @@
 import { ActiveEngineType, Coordinates, MapEngineType } from '../types';
 
-export const AMAP_API_KEY = 'c658af726cad75cfa4d992ba59bbcb2c';
-export const GOOGLE_MAPS_API_KEY = 'AIzaSyDRysP99SREOPNtyFjJ9tUhBZZIcFLZ6s8';
+export const AMAP_API_KEY =
+  (import.meta as any).env?.VITE_AMAP_API_KEY || 'c658af726cad75cfa4d992ba59bbcb2c';
+export const GOOGLE_MAPS_API_KEY =
+  (import.meta as any).env?.VITE_GOOGLE_MAPS_API_KEY || 'AIzaSyDRysP99SREOPNtyFjJ9tUhBZZIcFLZ6s8';
 
 /**
  * Checks if a given coordinate is located inside mainland China territory
